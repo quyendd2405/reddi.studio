@@ -19754,7 +19754,7 @@ select.selectpicker {
   opacity: 0.75;
 }
 .homepage .rio-team {
-  padding-top: 121px;
+  /* padding-top: 100px; */
 }
 .homepage .rio-team .content {
   padding-top: 24px;
@@ -19921,8 +19921,8 @@ select.selectpicker {
   filter: grayscale(1);
 }
 .image-warp img {
-    width: 50%;
-    height: 70%; 
+    width: 100%;
+    height: 60%; 
     object-fit: contain;
 }
 .homepage .out-client .group-logo .logo-slide-item .image-warp:hover {
@@ -19943,7 +19943,7 @@ select.selectpicker {
 }
 @media (min-width: 1366px) {
   .homepage .rio-team {
-    padding-top: 150px;
+    padding-top: 50px;
   }
   .homepage .rio-team .content {
     padding-top: 73px;
@@ -20170,9 +20170,7 @@ select.selectpicker {
     font-size: 16px;
     line-height: 19px;
   }
-  .projects .contact-btn .btn-wrap {
-    padding: 40px 0 200px;
-  }
+
   .projects .project-item.reduce-space-right {
     margin-right: 0;
   }
@@ -20188,6 +20186,7 @@ select.selectpicker {
 }
 .services .service-list {
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .services .service-list table {
   width: 100%;
@@ -20196,6 +20195,9 @@ select.selectpicker {
 .services .service-list .service-item {
   gap: 40px;
   border-bottom: 1px solid #b5b5b5;
+}
+.services .service-list .service-item:last-child {
+  border-bottom: none;
 }
 .services .service-list .service-item .title {
   font-family: Mulish, sans-serif;
@@ -20269,7 +20271,7 @@ select.selectpicker {
   .services .service-list .service-item .title.active:after {
     content: "";
     position: absolute;
-    background-color: #ed1d24;
+    background-color: #FF0013;
     border-radius: 100%;
     opacity: 0.7;
     height: 60px;
@@ -20444,8 +20446,8 @@ br[type="lg"] {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-  color: #292929;
-  background: #ed1d24;
+  color: #FFF;
+  background: #FF0013;
   padding: 14px;
   border: none;
 }
@@ -20537,7 +20539,7 @@ br[type="lg"] {
 }
 .animations .yellow-circle {
   position: absolute;
-  background-color: #ed1d24;
+  background-color: #FF0013;
   border-radius: 100%;
   mix-blend-mode: multiply;
   z-index: 9;
@@ -20988,4 +20990,14 @@ br[type="lg"] {
     z-index: 9;
     cursor: pointer;
   }
+}
+
+@media (min-width: 1024px) {
+  .logo img {
+    height: 200px !important;
+  }
+}
+
+.logo img {
+  height: 100px;
 }
